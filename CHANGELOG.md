@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-09
+### Fixed
+- Make search_by_title case-insensitive (Refs #18).
+
 ## [1.0.0] - 2026-11-09
 ### Added
 - Cart.print_cart(): print formatted cart contents and total cost.
