@@ -5,9 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.1.0] - 2026-11-09
 ### Added
 - Cart.sort_by_title(): sort items alphabetically by title.
 - Cart.sort_by_cost(): sort items by cost descending.
+- search_by_category(): filter DVDs by category.
 
 ## [1.0.0] - 2026-11-09
 ### Added
