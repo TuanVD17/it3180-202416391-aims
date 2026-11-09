@@ -6,7 +6,7 @@
 
     def add_digital_video_disc(self, disc):
         if len(self.items) >= self.MAX_NUMBERS_ORDERED:
-            print("Gio hang da day.")
+            print("The cart is full.")
             return False
         self.items.append(disc)
         return True
