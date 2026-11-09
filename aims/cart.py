@@ -5,7 +5,7 @@
         self.items = []
 
     def add_digital_video_disc(self, disc):
-        if len(self.items) > self.MAX_NUMBERS_ORDERED:
+        if len(self.items) >= self.MAX_NUMBERS_ORDERED:
             print("The cart is full.")
             return False
         self.items.append(disc)
@@ -21,6 +21,9 @@
         return sum(item.cost for item in self.items)
 
     def print_cart(self):
+        if not self.items:
+            print("The cart is empty")
+            return
         print("***********************CART***********************")
         print("Ordered Items:")
         for idx, item in enumerate(self.items, 1):
